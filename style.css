@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding: 0
+}
+.app 
+ {    box-sizing: border-box;
+        color: #fff!important;
+        font-family: Quantico,sans-serif!important;
+        background-color: #031927!important;
+       
+    };
+.border-bottom-color {
+     
+    border-color: #ef233c!important;
+}
+.header{
+    display: block;
+    max-width: 1320px;
+}
+.btn-style{
+ 
+        font-size: 16px;
+        font-weight: 700;
+        padding: 12px 24px;
+    
+}
+.banner{
+    background-size: cover;
+    height: 799px;
+    position: relative;
+    background-position: 50% center;
+  
+}
+.banner::before {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    content: "";
+    display: block;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+   
+}
+ 
+.banner_text{
+    position: relative;
+    z-index: 3;
+}
+.banner_paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    line-height: 28px;
+    text-align: center;
+}
+ 
+.font_titillium {
+    font-family: "Titillium Web" !important;
+}
+@media (min-width: 280px) and (max-width: 480px){
+    .banner_text h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .banner_text h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+@media (min-width: 280px) and (max-width: 480px){
+    .date h2{
+        font-size: 16px;
+        display: block;
+    }
+}
+.img-fluid{
+    height: auto;
+    max-width: 100%;
+}
+.mainBg{
+    background-color: #031927;
+}
